@@ -25,11 +25,12 @@ class App extends React.Component {
     }
 
     sendAPIRequest() {
+        window.alert('Obtained 1 Hamburger Token');
         var apiAddress;
         apiAddress = "http://13.56.163.182:8000/transfer-token";
         axios.post(apiAddress, {
             ticker: "HAMBURGER",
-            amount: 10,
+            amount: 1,
             to: userAddress,
             hookUrl: "done",
         })
