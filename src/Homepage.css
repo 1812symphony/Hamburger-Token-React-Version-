@@ -1,0 +1,38 @@
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+.burger-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.metamask-container {
+    position: absolute;
+    left: 46%;
+}
+
+.metamask {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+}
+
+.adventure-container {
+    position: fixed;
+    margin-top: 30px;
+}
+
+body{
+    background-color: rgb(230, 152, 119);
+}
+
+
+
